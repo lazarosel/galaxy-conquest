@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#091116" />
+    <title>Galaxy Conquest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="starfield" aria-hidden="true"></div>
+    <main id="app" class="app-shell">
+      <header class="topbar">
+        <a class="wordmark" href="/" aria-label="Galaxy Conquest home">
+          <span class="mark"><span></span></span>
+          <span>GALAXY <b>CONQUEST</b></span>
+        </a>
+        <span class="top-note"><i></i> ROOM-CODE MULTIPLAYER</span>
+      </header>
+      <section id="screen" class="screen" aria-live="polite">
+        <div class="loading">Charting the galaxy<span>···</span></div>
+      </section>
+      <footer class="footer"><span>10 rounds · 2–8 pilots · one winner</span><span>BUILT FOR THE BRINK</span></footer>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+    <script type="module" src="/client.js"></script>
+  </body>
+</html>
